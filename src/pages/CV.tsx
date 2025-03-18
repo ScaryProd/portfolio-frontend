@@ -5,9 +5,9 @@ export default function CV() {
       <p className="text-lg text-gray-600 mb-6">Click to download.</p>
       <a
         href="/cv.pdf"
-        className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
+        className="bg-gray-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
       >
-        Download CV
+        Download not ready
       </a>
     </div>
   );

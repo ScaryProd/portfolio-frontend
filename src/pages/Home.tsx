@@ -5,8 +5,7 @@ export default function Home() {
         Welcome to My Portfolio
       </h1>
       <p className="text-lg text-gray-600 mb-6">
-        I’m a Frontend Developer passionate about creating beautiful and
-        functional web experiences.
+        I’m a cool and awesome Frontend and Game developer
       </p>
       <a
         href="/projects"

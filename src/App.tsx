@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Blog from "./pages/Blog";
-import SinglePost from "./pages/SinglePost"; // Import new page
+import SinglePost from "./pages/SinglePost";
 import Contact from "./pages/Contact";
 import CV from "./pages/CV";
 
