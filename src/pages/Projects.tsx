@@ -16,7 +16,7 @@ export default function Projects() {
       title: "EnControl",
       description:
         "Co-founded a local game developer community for networking and collaborating.",
-      imageUrl: "src/assets/images/meetup.png", // Replace with your image URL
+      imageUrl: "/images/meetup.png", // Replace with your image URL
       demoLink: "https://www.instagram.com/encontrol.mty/",
       linkName: "Link",
     },
@@ -24,7 +24,7 @@ export default function Projects() {
       id: 2,
       title: "Pyrohexnics",
       description: "Combine different ingredients to create explosive potions!",
-      imageUrl: "src/assets/images/pyrohexnics.png",
+      imageUrl: "/images/pyrohexnics.png",
       demoLink: "https://alviedev.itch.io/pyrohexnics",
       linkName: "Itch.io",
     },
@@ -33,7 +33,7 @@ export default function Projects() {
       title: "Norterrestres",
       description:
         "Juggle a concert between dimensions using unique controls for each instrument",
-      imageUrl: "src/assets/images/norterrestres.png",
+      imageUrl: "/images/norterrestres.png",
       demoLink: "https://v3.globalgamejam.org/2022/games/norterrestres-4",
       linkName: "Global Game Jam",
     },
