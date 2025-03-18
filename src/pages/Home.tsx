@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <div className="text-center py-20">
@@ -7,12 +8,12 @@ export default function Home() {
       <p className="text-lg text-gray-600 mb-6">
         I’m a cool and awesome Frontend and Game developer
       </p>
-      <a
-        href="/projects"
+      <Link
+        to="/projects"
         className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition"
       >
         View My Work
-      </a>
+      </Link>
     </div>
   );
 }
