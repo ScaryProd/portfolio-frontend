@@ -10,7 +10,7 @@ export default function Contact() {
       <div className="flex space-x-6">
         {/* Bluesky */}
         <a
-          href="https://bsky.app/profile/alviedev.bsky.social"
+          href="https://bsky.app/profile/alvie.dev"
           target="Bluesky"
           rel="noopener noreferrer"
           className="text-blue-500 hover:text-blue-700 transition duration-300 text-3xl"

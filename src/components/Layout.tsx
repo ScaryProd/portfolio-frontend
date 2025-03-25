@@ -51,7 +51,7 @@ export default function Layout() {
 
       {/* Footer */}
       <footer className="w-full bg-gray-800 text-white text-center p-4">
-        © {new Date().getFullYear()} My Portfolio
+        © {new Date().getFullYear()} Alvaro Santana
       </footer>
     </div>
   );
