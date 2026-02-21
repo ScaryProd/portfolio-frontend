@@ -39,6 +39,7 @@ export default function Layout() {
                   CV
                 </Link>
               </li>
+              <Link to="/dragonball">Dragon Ball Game</Link>
             </ul>
           </nav>
         </div>

@@ -15,8 +15,8 @@ export default function Projects() {
       id: 1,
       title: "EnControl",
       description:
-        "Co-founded a local game developer community for networking and collaborating.",
-      imageUrl: "/images/meetup.png", // Replace with your image URL
+        "Co-founded the largest game developer community in Nuevo Leon, Mexico focused networking, collaborating and teaching.",
+      imageUrl: "/images/meetup.png",
       demoLink: "https://www.instagram.com/encontrol.mty/",
       linkName: "Link",
     },
