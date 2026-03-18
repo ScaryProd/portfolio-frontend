@@ -16,8 +16,8 @@ export default function Projects() {
       title: "EnControl",
       description:
         "Co-founded the largest game developer community in Nuevo Leon, Mexico focused networking, collaborating and teaching.",
-      imageUrl: "/images/meetup.png",
-      demoLink: "https://www.instagram.com/encontrol.mty/",
+      imageUrl: "/images/Meetup07_poster.png",
+      demoLink: "https://encontrol.dev/",
       linkName: "Link",
     },
     {
@@ -37,7 +37,22 @@ export default function Projects() {
       demoLink: "https://v3.globalgamejam.org/2022/games/norterrestres-4",
       linkName: "Global Game Jam",
     },
-    // Add more projects as needed
+    {
+      id: 4,
+      title: "IT COUNTS! Survivor",
+      description: "Survive in your tv, and outside as well!",
+      imageUrl: "/images/itcounts.png",
+      demoLink: "https://alviedev.itch.io/it-counts-survivor",
+      linkName: "Itch.io",
+    },
+    {
+      id: 5,
+      title: "antidle",
+      description: "Idle game about ants!",
+      imageUrl: "/images/antidle.png",
+      demoLink: "https://alviedev.itch.io/ant-idle-pico-8",
+      linkName: "Itch.io",
+    },
   ];
 
   return (
