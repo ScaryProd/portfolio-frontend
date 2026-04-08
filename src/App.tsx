@@ -7,11 +7,10 @@ import Blog from "./pages/Blog";
 import SinglePost from "./pages/SinglePost";
 import Contact from "./pages/Contact";
 import CV from "./pages/CV";
-import DragonBallGame from "./components/DragonBallGame";
 
 export default function App() {
   return (
-    <div>
+    <div className="bg-pico-bg text-pico-text font-mono">
       <Router>
         <Routes>
           <Route path="/" element={<Layout />}>
@@ -22,7 +21,6 @@ export default function App() {
             <Route path="blog/:id" element={<SinglePost />} />
             <Route path="contact" element={<Contact />} />
             <Route path="cv" element={<CV />} />
-            <Route path="dragonball" element={<DragonBallGame />} />
           </Route>
         </Routes>
       </Router>

@@ -16,7 +16,9 @@ export default function BlogFilters({
           key={cat}
           onClick={() => setActiveFilter(cat)}
           className={`px-4 py-2 rounded ${
-            activeFilter === cat ? "bg-blue-600 text-white" : "bg-gray-200"
+            activeFilter === cat
+              ? "bg-blue-600 text-pico-header-text"
+              : "bg-gray-200"
           }`}
         >
           {cat}

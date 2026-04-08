@@ -12,7 +12,7 @@ export default function SinglePost() {
   return (
     <div className="max-w-2xl mx-auto p-4">
       <h1 className="text-3xl font-bold">{post.title}</h1>
-      <p className="mt-4 text-gray-700">{post.content}</p>
+      <p className="mt-4 text-pico-header-text">{post.content}</p>
     </div>
   );
 }

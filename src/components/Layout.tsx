@@ -1,57 +1,70 @@
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+import PageTransition from "./PageTransition";
 
 export default function Layout() {
   return (
-    <div className="min-h-screen flex flex-col w-full">
-      {/* Header */}
-      <header className="w-full bg-blue-500 text-white p-4">
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <h1 className="text-2xl font-bold">My Portfolio</h1>
+    <div className="flex flex-col w-full min-h-screen">
+      <header className="w-full bg-pico-header text-pico-header-text p-4">
+        <div className="max-w-7xl mx-auto flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
+          <h1 className="text-2xl font-bold tracking-widest uppercase">
+            Alvaro Santana
+          </h1>
           <nav>
-            <ul className="flex space-x-6">
+            <ul className="flex flex-wrap justify-center gap-4 uppercase tracking-wider text-sm">
               <li>
-                <Link to="/" className="hover:text-gray-300">
+                <Link to="/" className="hover:opacity-70 transition-opacity">
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="hover:text-gray-300">
+                <Link
+                  to="/about"
+                  className="hover:opacity-70 transition-opacity"
+                >
                   About
                 </Link>
               </li>
               <li>
-                <Link to="/projects" className="hover:text-gray-300">
+                <Link
+                  to="/projects"
+                  className="hover:opacity-70 transition-opacity"
+                >
                   Projects
                 </Link>
               </li>
               <li>
-                <Link to="/blog" className="hover:text-gray-300">
+                <Link
+                  to="/blog"
+                  className="hover:opacity-70 transition-opacity"
+                >
                   Blog
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="hover:text-gray-300">
+                <Link
+                  to="/contact"
+                  className="hover:opacity-70 transition-opacity"
+                >
                   Contact
                 </Link>
               </li>
               <li>
-                <Link to="/cv" className="hover:text-gray-300">
+                <Link to="/cv" className="hover:opacity-70 transition-opacity">
                   CV
                 </Link>
               </li>
-              <Link to="/dragonball">Dragon Ball Game</Link>
             </ul>
           </nav>
         </div>
       </header>
 
-      {/* Main Content */}
-      <main className="flex-grow container mx-auto p-4">
-        <Outlet />
+      <main className="flex-grow">
+        <div className="container mx-auto p-6">
+          <PageTransition />
+        </div>
       </main>
 
-      {/* Footer */}
-      <footer className="w-full bg-gray-800 text-white text-center p-4">
+      <footer className="w-full bg-pico-header text-pico-header-text text-center p-4 text-sm tracking-widest uppercase">
         © {new Date().getFullYear()} Alvaro Santana
       </footer>
     </div>

@@ -1,0 +1,79 @@
+.scanline-transition {
+  position: relative;
+  width: 100%;
+}
+
+/* The scanline overlay — always present but only visible during transition */
+.scanline-overlay {
+  position: fixed;
+  top: var(--header-h, 0px);
+  left: 0;
+  right: 0;
+  bottom: var(--footer-h, 0px);
+  pointer-events: none;
+  z-index: 999;
+  opacity: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 2px,
+    rgba(0, 0, 0, 0.3) 2px,
+    rgba(0, 0, 0, 0.3) 4px
+  );
+}
+
+/* Content fades out with scanlines appearing */
+.scanline-transition.out .scanline-overlay {
+  animation: scanlines-in 0.4s steps(5) forwards;
+}
+.scanline-transition.out .scanline-content {
+  animation: content-out 0.4s steps(5) forwards;
+}
+
+/* Content fades in with scanlines disappearing */
+.scanline-transition.in .scanline-overlay {
+  animation: scanlines-out 0.4s steps(5) forwards;
+}
+.scanline-transition.in .scanline-content {
+  animation: content-in 0.4s steps(5) forwards;
+}
+
+@keyframes content-out {
+  0% {
+    opacity: 1;
+    filter: brightness(1);
+  }
+  100% {
+    opacity: 0;
+    filter: brightness(0);
+  }
+}
+
+@keyframes content-in {
+  0% {
+    opacity: 0;
+    filter: brightness(0);
+  }
+  100% {
+    opacity: 1;
+    filter: brightness(1);
+  }
+}
+
+@keyframes scanlines-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes scanlines-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

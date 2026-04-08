@@ -3,11 +3,11 @@ import { SiBluesky } from "react-icons/si";
 
 export default function Contact() {
   return (
-    <div className="flex flex-col items-center justify-center space-y-6 text-center">
-      <h1 className="text-4xl font-bold">Contact Me</h1>
-      <p className="text-lg text-gray-600">Find me on these platforms:</p>
+    <div className="max-w-3xl mx-auto text-center py-16">
+      <h1 className="text-4xl font-bold text-pico-header-text">Contact Me</h1>
+      <p className="text-lg text-pico-text">Find me on these platforms:</p>
 
-      <div className="flex space-x-6">
+      <div className="flex justify-center space-x-6">
         {/* Bluesky */}
         <a
           href="https://bsky.app/profile/alvie.dev"

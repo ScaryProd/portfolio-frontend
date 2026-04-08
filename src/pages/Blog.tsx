@@ -14,7 +14,9 @@ export default function Blog() {
 
   return (
     <div className="max-w-4xl mx-auto py-16">
-      <h1 className="text-4xl font-bold text-center mb-6">Blog</h1>
+      <h1 className="text-4xl font-bold text-center mb-6 text-pico-header-text">
+        Blog
+      </h1>
       <BlogFilters
         activeFilter={activeFilter}
         setActiveFilter={setActiveFilter}
@@ -23,10 +25,12 @@ export default function Blog() {
         {filteredPosts.map((post) => (
           <div key={post.id} className="p-6 border rounded-lg shadow-md">
             <h2 className="text-2xl font-bold mb-2">{post.title}</h2>
-            <div className="text-sm text-gray-500 mb-4">
+            <div className="text-sm text-pico-text mb-4">
               {post.date} | {post.category}
             </div>
-            <p className="text-gray-700">{post.content.substring(0, 100)}...</p>
+            <p className="text-pico-header-text">
+              {post.content.substring(0, 100)}...
+            </p>
             <Link
               to={`/blog/${post.id}`}
               className="text-blue-500 hover:underline"

@@ -22,7 +22,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       )}
       <div className="p-4 flex flex-col flex-grow">
         <h2 className="text-2xl font-bold mb-2">{title}</h2>
-        <p className="text-gray-700 flex-grow">{description}</p>
+        <p className="text-pico-header-text flex-grow">{description}</p>
         <div className="mt-4 flex space-x-4">
           {demoLink && (
             <a
