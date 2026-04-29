@@ -13,3 +13,7 @@ body {
   font-family: monospace;
   margin: 0;
 }
+
+.blog-paragraph {
+  margin: 20px;
+}

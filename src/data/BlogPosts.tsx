@@ -52,7 +52,9 @@ export const blogPosts = [
     
     And I guess this is it, this is where the soul is filled. An infantile, toy-focused marketing show, somehow managed to inject my soul with the desire to create. It's kind of baffling to me that this is what made me reach this point. After all, just last week I read Albert Camus's 'The Stranger' and while it definitely made me feel differently about existing (mostly in funny ways. I'll have to write about that, too), it was finishing Kamen Rider Geats that made me get to this point.
     
-    Instead of a signature, I'll send this blog post off with even more awesome stuff that happens in Kamen Rider Geats. SPOILERS BELOW:
+    Instead of a signature, I'll send this blog post off with even more awesome stuff that happens in Kamen Rider Geats. 
+    
+    SPOILERS BELOW:
     
     Remember that time Neon got Fantasy? It was super sick to see the character arc where her father accepted that he loves her, even though he created a pretend-daughter to fill in for her real dead daughter, which he still grieves? And then he gets it, he gives it to Neon, who gets her driver core back for literally no reason than it being a cool ass scene? And then her rider kick was flourished with spectral swords? and she could phase through walls and projectiles? That shit was cool.
     
