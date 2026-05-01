@@ -7,6 +7,7 @@ import Blog from "./pages/Blog";
 import SinglePost from "./pages/SinglePost";
 import Contact from "./pages/Contact";
 import CV from "./pages/CV";
+import Study from "./pages/Study";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
             <Route path="blog/:id" element={<SinglePost />} />
             <Route path="contact" element={<Contact />} />
             <Route path="cv" element={<CV />} />
+            <Route path="study" element={<Study />} />
           </Route>
         </Routes>
       </Router>
