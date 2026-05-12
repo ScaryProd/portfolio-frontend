@@ -10,6 +10,13 @@ export default function CV() {
       >
         Download CV
       </a>
+
+      <iframe
+        src="/cv_Alvaro.pdf"
+        className="mt-8 mx-auto w-full max-w-4xl"
+        style={{ height: "90vh" }}
+        title="Alvaro Santana CV"
+      />
     </div>
   );
 }

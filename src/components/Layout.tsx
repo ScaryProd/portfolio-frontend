@@ -53,7 +53,13 @@ export default function Layout() {
                   CV
                 </Link>
               </li>
+                            <li>
+                <Link to="/study" className="hover:opacity-70 transition-opacity">
+                  Study
+                </Link>
+              </li>
             </ul>
+            
           </nav>
         </div>
       </header>

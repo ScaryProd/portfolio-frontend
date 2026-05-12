@@ -8,6 +8,7 @@ import SinglePost from "./pages/SinglePost";
 import Contact from "./pages/Contact";
 import CV from "./pages/CV";
 import Study from "./pages/Study";
+import { Scene } from "./pages/Scene";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
             <Route path="contact" element={<Contact />} />
             <Route path="cv" element={<CV />} />
             <Route path="study" element={<Study />} />
+            <Route path="scene" element={<Scene />} />
           </Route>
         </Routes>
       </Router>
