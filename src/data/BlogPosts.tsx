@@ -72,4 +72,57 @@ export const blogPosts = [
     category: "Personal",
     date: "2026-04-28",
   },
+  {
+    id: "4",
+    title: "Kuuga: Make me smile.",
+    content: `
+    [p] To follow up Kamen Rider Geats, I decided to do a bit more research this time around before jumping into a new Kamen Rider series. Eventually, I landed on Kamen Rider Kuuga.[/p]
+    
+    [p] Felt like the right choice. After all, it seemed to have a cult following, and more importantly, was the first of the "Heisei" era Kamen Riders, which meant it was the first one to follow a serialized plot, rather than monster-of-the-week structure. [/p]
+    
+    [p] .. Or something like that. It seems like some previous Kamen Rider shows from the Showa era were also serial instead of monster of the week. But, at the same time, Kuuga was a better jumping-on point than others, as it was the first of its era.[/p]
+
+    [p] And what a ride it was. From the very beginning, Kuuga is a breath of original air next to Geats: Old effects, old cameras, stunt actors in old costumes. Of course, it's not free from 3D effects, but because they were so new at the time, they were used sparingly. [/p]
+    
+    [p] I think that's where I'm going to start: The action is fantastic. Sure, a lot of it seems to be fisticuffs between men in suits, but they get really creative and inventive. At many points, they're throwing themselves through makeshift buildings, shooting out sparks on impact, throwing props at eachother in a way that makes every fight feel fresh and intimidating.[/p]
+
+    [p] My absolute favorite fight was the motorcycle fight, where the titular Kuuga has to face off against a coincidentally grasshopper-themed monster with a coincidental red scarf. The design is rad to begin with, but then the monster turns out to be a biker, and they get in a fight that involves riding through rocks and terrain until finally smacking their bikes against eachother, and ending the fight with an epic jump and clash in mid-air. It's great![/p]
+
+    [p] Next thing that I wanna touch on is how interesting the premisce is: It's a detective show. Specifically, it's a detective show where the detective (Ichijo, deuteragonist) has to stop serial killers (Grongi, ancient monsters) but he can't hurt them, so he has to help the Kamen Rider (Godai, protagonist) track them down and fight them.[/p]
+
+    [p] Now, honestly, if you wanted to pitch the show as just that, I honestly would not have been into it. It just seems... Silly? Like, a serious topic overlaid with a fantasy setting. It sounds like it shouldn't work. Yet, despite my initial reservations, I found myself really invested in the plot, the world, and the (admittedly, ridiculous) stakes. I think the death toll in the series reaches the thousands?[/p]
+
+    [p] The coolest part, however, is how the story is tied well to the narrative plot. The death toll isn't just a throwaway number to make the monsters sound scary. No, in fact, the death toll plays a role in basically every character's journey: One character is taking acting classes, until their teacher is killed by a monster. Then, in the auditions, she's asked to play a role of a woman who just saw her loved one die to a monster. That takes some guts to write about: Grief in a kids show that is kind of silly at times. Or, another character becoming pregnant, and having second thoughts due to how common and horrifying the deaths are becoming.[/p]
+
+    [p] Even the comedic relief characters - no, in fact, specially the comedic relief characters - are affected in this world, as they affect others. Jean, the token white guy, is funny in his own right, but helps give Enokida, a mother, a fairly solid argument and case to care about her family, even when her job is directly tied to the human police force being able to fight the monsters without the help of Kuuga. [/p]
+
+    [p] Comedic relief is exactly where the protagonist, Yusuke Odagiri, fits in. In any other show, he's the goofball, the funny friend who "always wants to make everyone smile". However, he's thrust into the protagonist seat to take over the mantle of Kuuga, warrior of the human tribe the line of defense against the heartless Grongi.[/p]
+
+    [p] And once again, it is fascinating to see this character shine in an otherwise pretty dark show. People die, tragedies are happening left and right, and yet our protagonist isn't someone who helps us process the whole thing, it's someone who takes the negative world they're in, and asks us and the cast to cheer up, to keep our smile.[/p]
+
+    [p] To me, that's the core of the show. His want to keep everyone smiling goes beyond a simple goof, or a simple character quirk. It is a love born within him, which he will go to great lengths to share with others. He gives them love in a way that is genuine: he cares for them, by bringing them flowers, medicine, food when they need it. He listens to them, their goals, dreams, aspirations, as well as things that are simple, like how their day is going, or what they're thinking of. He comes up with "skills" which are really party tricks that he has learned throughout his life, all with the purpose to make people smile. He's a really lovely character. [/p]
+
+    [p] So what happens when a character like Yusuke, who wants to see someone smile, runs into the Grongi: Evil beings that want nothing more than to play a game based on the suffering of humans? Snuffing out the smiles of everyone around Yusuke, and any defenseless human that they decide to kill.[/p]
+
+    [p] And this is also a particularly well handled point, as the monsters don't initially show their hand to Yusuke, so he's unaware of their joy killings. As time goes on, however, their methods become clearer, and once they become clear enough, Yusuke nearly loses his own spark, going all-out agains the monster that got the most joy against killing and tormenting innocent kids into taking their lives.[/p]
+
+    [p] But he holds on to that idea, making everyone smile, and ultimately it's what lets him defeat the grongi, and make a lasting, smiling impression on everyone he met throughout the show.[/p]
+
+    [p] And that's the point that I'll give an extra moment to delve into: The love he felt for everyone else. It's remarkable just how much he loved everyone else, in the big, and the small things. And how everyone loved him back. Even when they didn't know the language of love, he taught them how to love. Ichijo is a complex character who does not know the first thing about expressing love. Even when his mother falls ill in the middle of the show, the best he can do to show affection to her, is to talk as if nothing happened. His mother, knowing him and how he is, knows that that's how he loves.[/p]
+
+    [p] After meeting Yusuke though, his tough exterior is challenged by someone who cares so much about him. Not by his looks or his measure of attractiveness, as this is also addressed in a plotline where a coworker has a crush on him. No, I'm talking true love for who someone is, being cared for. Ichijo still never shows affection beyond acting like it's business as usual, but when Yusuke is at his lowest, most injured, or in trouble, Ichijo still takes a second to remind himself of Yusuke's love, his smiles, and positivity. He gives himself a thumbs up to fully realize what's at stake, and who is teaching him to love. That was such a special moment for me, though I have to admit, I did laugh at that at first. [/p]
+
+    [p] It's never about making everyone happy, or making everyone smile. It's about truly loving people, and their humanity. At their highest and their lowest, Yusuke knows to choose love. And I think that's something really valuable, something that's easy to lose and extremely hard to keep. So I'll take that with me.[/p]
+
+    [p] Once again, I'm getting philosophical over a kids' show made to sell toys. Crazy isn't it?[/p]
+
+    [p] Also, the idea that the final fight is Yusuke's ideals clashing with the same ideals, but reversed, is kind of genious. "I'm going to fight to make everyone smile!" versus "Go ahead. Fight me. Make me smile." and it's kind of a jarring final fight, as Daguva is a seemingly deranged lunatic fighting for the thrill of it, meanwhile Yusuke knows just how much is at stake: everyone he loves is going to die if he diesn't beat Daguva, but at the same time, he can't let himself get carried away by the need to kill, otherwise he risks losing his passion and love and need to make everyone smile.[/p]
+
+    [p] The ending theme gave me pink floyd vibes in its guitar riffs. Which is fitting in the kind of spirit it gives: Something just out of reach of normalcy, begging for nothing more than a moment longer with those you love, those things you love, but acknowledging the distance that now exists between you and what you love is a simply normal part of life. [/p]
+
+    [url]https://youtu.be/6vYs0zF2DLg?si=i1xWaHZ4D1_DwWWm[/url]
+    `,
+    category: "Personal",
+    date: "2026-06-14",
+  },
 ];
